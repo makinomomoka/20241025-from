@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>フォーム</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>ライブについての<br>アンケート</h1>
+    </header>
+
+    <main>
+      <form action="confirm.html">
+        <label id="user-name" class="form-item">
+          <p class="form-heading">お名前<span class="require">必須</span></p>
+          <input type="text" placeholder="お名前をフルネームでご入力ください" required>
+        </label>
+
+        <label id="user-email" class="form-item">
+          <p class="form-heading">今回演奏された中で好きな曲<span class="require">必須</span></p>
+          <input type="text" placeholder="曲名をご入力ください" required>
+        </label>
+
+        <label id="user-music" class="form-item">
+          <p class="form-heading">今後演奏してほしい曲<span class="require">必須</span></p>
+          <input type="text" placeholder="曲名をご入力ください" required>
+        </label>
+
+        <label id="user-tel" class="form-item">
+          <p class="form-heading">今後出してほしいグッズ</p>
+          <input type="text" placeholder="グッズ名またはイメージをご入力ください">
+        </label>
+
+        <label id="contact-content" class="form-item">
+          <p class="form-heading">感想<span class="require">必須</span></p>
+          <textarea placeholder="感想をお書きください"></textarea>
+        </label>
+
+        <div class="btn-area">
+          <button id="btn_confirm" class="btn">確認する</button>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <small class="copyright">&copy; ©2024 live-form</small>
+    </footer>
+  </body>
+</html>
